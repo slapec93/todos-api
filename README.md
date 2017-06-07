@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Todo API developed with TDD.
 
-Things you may want to cover:
+For the environment installation Docker Compose is used.
 
-* Ruby version
+Test environment Gems:
 
-* System dependencies
+* RSpec
+* FactoryGirl
+* Faker
+* DatabaseCleaner
+* Shoulda
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In the front end part is implemented with Angular and the files can be found in the front_end folder.
