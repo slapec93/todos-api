@@ -4,6 +4,7 @@ class TodosController < ApplicationController
     # Set @todo before the listed actions
     before_action :set_todo, only: [:show, :update, :destroy]
 
+    # CRUD methods for Todo
     def index
         @todos = Todo.all
         json_response(@todos)

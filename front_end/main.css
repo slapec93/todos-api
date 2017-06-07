@@ -1,0 +1,33 @@
+body {
+    width: 40%;
+    margin: 20px auto;
+}
+.todo-element {
+    cursor: pointer;
+}
+.list-group-item i {
+    cursor: pointer !important;
+}
+.list-group-item .fa-trash {
+    float: right;
+}
+.form-clear {
+    float: right;
+}
+.button-container {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.error-text {
+    color: red;
+    padding: 10px;
+    padding-left: 20px;
+}
+.headline {
+    font-size: 30px;
+    padding: 10 0;
+}
+ul {
+    max-height: 200px;
+    overflow: auto;
+}
