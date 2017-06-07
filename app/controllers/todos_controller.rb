@@ -2,7 +2,7 @@ class TodosController < ApplicationController
     include JSONResponse
     include ExceptionHandler
     # Set @todo before the listed actions
-    before_action :set_todo, only: [:show, :update, :destroy]
+    before_action :set_todo, except: [:index, :create]
 
     # CRUD methods for Todo
     def index
